@@ -67,27 +67,27 @@ class StoreResultsRepository
                 case 'GHLANG':
                     $model = gh_language::class;
                     break;
-                    case 'CART':
-                        $model = CArts::class;
-                        break;
-                    case 'FRENCH':
-                        $model = french::class;
-                        break;
-                    case 'RME':
-                        $model = rme::class;
-                        break;
-                    case 'COM':
-                        $model = computing::class;
-                        break;
-                    case 'SCI':
-                        $model = science::class;
-                        break;
-                    case 'SSTUD':
-                        $model = socialstd::class;
-                        break;
-                    case 'GHLANG':
-                        $model = gh_language::class;
-                        break;
+                case 'CART':
+                    $model = CArts::class;
+                    break;
+                case 'FRENCH':
+                    $model = french::class;
+                    break;
+                case 'RME':
+                    $model = rme::class;
+                    break;
+                case 'COM':
+                    $model = computing::class;
+                    break;
+                case 'SCI':
+                    $model = science::class;
+                    break;
+                case 'SSTUD':
+                    $model = socialstd::class;
+                    break;
+                case 'GHLANG':
+                    $model = gh_language::class;
+                    break;
                 default:
                     // Handle unknown subjects or throw an exception
                     break;
@@ -142,10 +142,50 @@ class StoreResultsRepository
                     case 'MATHS':
                         $model = Maths::class;
                         break;
-                        // Add other cases for different subjects
+                    case 'CART':
+                        $model = CArts::class;
+                        break;
+                    case 'FRENCH':
+                        $model = french::class;
+                        break;
+                    case 'RME':
+                        $model = rme::class;
+                        break;
+                    case 'COM':
+                        $model = computing::class;
+                        break;
+                    case 'SCI':
+                        $model = science::class;
+                        break;
+                    case 'SSTUD':
+                        $model = socialstd::class;
+                        break;
+                    case 'GHLANG':
+                        $model = gh_language::class;
+                        break;
+                    case 'CART':
+                        $model = CArts::class;
+                        break;
+                    case 'FRENCH':
+                        $model = french::class;
+                        break;
+                    case 'RME':
+                        $model = rme::class;
+                        break;
+                    case 'COM':
+                        $model = computing::class;
+                        break;
+                    case 'SCI':
+                        $model = science::class;
+                        break;
+                    case 'SSTUD':
+                        $model = socialstd::class;
+                        break;
+                    case 'GHLANG':
+                        $model = gh_language::class;
+                        break;
                     default:
                         // Handle unknown subjects or throw an exception
-                        throw new \InvalidArgumentException("Invalid subject: $subject");
                         break;
                 }
 
